@@ -1,0 +1,6 @@
+localhost
+
+try_files {path}.html {path}
+root * /srv
+
+file_server
