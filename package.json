@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "15.x"
+    "node": "14.x"
   },
   "name": "tailwind_skeleton",
   "dependencies": {
@@ -9,12 +9,14 @@
     "postcss": "^8.2.1",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^13.0.0",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "watch": "^1.0.2"
   },
   "version": "1.0.0",
   "description": "Static site skeleton",
   "scripts": {
-    "build": "./build.sh"
+    "build": "./build.sh",
+    "watch": "watch 'npm run build' ./src"
   },
   "author": "Matt Sencenbaugh",
   "license": "MIT"
